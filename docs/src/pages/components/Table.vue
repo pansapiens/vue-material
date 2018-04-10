@@ -102,6 +102,30 @@
               </md-table-row>
             </md-table-body>
           </md-table>
+
+          <md-table slot="events">
+            <md-table-header>
+              <md-table-row>
+                <md-table-head>Name</md-table-head>
+                <md-table-head>Value</md-table-head>
+                <md-table-head>Description</md-table-head>
+              </md-table-row>
+            </md-table-header>
+
+            <md-table-body>
+              <md-table-row>
+                <md-table-cell>onmouseover</md-table-cell>
+                <md-table-cell>Receive the row data.</md-table-cell>
+                <md-table-cell>Triggered when mouse hovers over row.</md-table-cell>
+              </md-table-row>
+
+              <md-table-row>
+                <md-table-cell>onmouseout</md-table-cell>
+                <md-table-cell>Receive the row data.</md-table-cell>
+                <md-table-cell>Triggered when mouse leaves the row.</md-table-cell>
+              </md-table-row>
+            </md-table-body>
+          </md-table>
         </api-table>
 
         <api-table name="md-table-head">
