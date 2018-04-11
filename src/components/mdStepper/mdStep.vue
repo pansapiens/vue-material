@@ -162,12 +162,15 @@
         };
       },
       moveNextStep() {
+        this.$emit('exitstep', this.index);
         this.parentStepper.moveNextStep();
       },
       movePreviousStep() {
+        this.$emit('exitstep', this.index);
         this.parentStepper.movePreviousStep();
       },
       setActiveStep() {
+        this.$emit('enterstep', this.index);
         this.parentStepper.setActiveStep(this.getStepData());
       },
       updateStepData() {
