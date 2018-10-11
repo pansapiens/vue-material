@@ -1,3 +1,9 @@
+***This is a custom fork of one of the final versions of vue-material 1.x series (2.x is the new official maintained version).***
+***This fork is tweaked for the purposes on one project that relies on it, but you SHOULDN'T rely on it for your own project.*** 
+***To build see "Building vue-material" below.***
+
+<hr>
+
 <p align="center">
   <a href="https://vuematerial.github.io/" target="_blank">
     <img width="150" src="https://vuematerial.github.io/assets/logo-vue-material-default.png">
@@ -84,6 +90,15 @@ Vue.use(VueMaterial.MdButton)
 Vue.use(VueMaterial.MdIcon)
 Vue.use(VueMaterial.MdSidenav)
 Vue.use(VueMaterial.MdToolbar)
+```
+
+#### Building vue-material
+The repository contains a subrepo for `vue-material` (1.x, custom fork).
+If you make changes to `vue-material`, rebuild it like:
+
+```bash
+npm install
+npm run build:lib
 ```
 
 ## Sponsors &amp; Backers
