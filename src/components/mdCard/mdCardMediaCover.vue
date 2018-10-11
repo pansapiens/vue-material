@@ -56,7 +56,7 @@
       };
       let image = this.$el.querySelector('img');
 
-      if (image && (this.mdTextScrim || this.mdSolid)) {
+      if (image && image.width > 0 && (this.mdTextScrim || this.mdSolid)) {
         getImageLightness(image, (lightness) => {
           let limit = 256;
           let darkness = (Math.abs(limit - lightness) * 100 / limit + 15) / 100;
