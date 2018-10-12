@@ -1,4 +1,4 @@
-***This is a custom fork of one of the final versions of vue-material 1.x series (2.x is the new official maintained version).***
+***This is a custom fork of vue-material, based on one of the final versions of the deprecated 0.8.x series (1.x is the new maintained version).***
 ***This fork is tweaked for the purposes on one project that relies on it, but you SHOULDN'T rely on it for your own project.*** 
 ***To build see "Building vue-material" below.***
 
