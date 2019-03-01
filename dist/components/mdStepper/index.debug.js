@@ -783,7 +783,7 @@ module.exports = Component.exports
 /***/ 365:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (67)\nFor more information on which environments are supported please see:\nhttps://github.com/sass/node-sass/releases/tag/v4.9.3\n    at module.exports (/Users/perry/devel/vue-material/node_modules/node-sass/lib/binding.js:13:13)\n    at Object.<anonymous> (/Users/perry/devel/vue-material/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (internal/modules/cjs/loader.js:707:30)\n    at Module._extensions..js (internal/modules/cjs/loader.js:718:10)\n    at Object.require.extensions.(anonymous function) [as .js] (/Users/perry/devel/vue-material/node_modules/babel-register/lib/node.js:152:7)\n    at Module.load (internal/modules/cjs/loader.js:605:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:536:3)\n    at Module.require (internal/modules/cjs/loader.js:643:17)\n    at require (internal/modules/cjs/helpers.js:22:18)\n    at runLoaders (/Users/perry/devel/vue-material/node_modules/webpack/lib/NormalModule.js:195:19)\n    at /Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:170:18\n    at loadLoader (/Users/perry/devel/vue-material/node_modules/loader-runner/lib/loadLoader.js:27:11)\n    at iteratePitchingLoaders (/Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:165:10)\n    at /Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:173:18\n    at loadLoader (/Users/perry/devel/vue-material/node_modules/loader-runner/lib/loadLoader.js:36:3)\n    at iteratePitchingLoaders (/Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (/Users/perry/devel/vue-material/node_modules/loader-runner/lib/LoaderRunner.js:165:10)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1050,6 +1050,7 @@ exports.default = {
 
       if ((0, _keys2.default)(_this4.stepList).length && !_this4.activeStep) {
         var firstStep = (0, _keys2.default)(_this4.stepList)[0];
+
         if (_this4.mdGotoStep != null) {
           firstStep = (0, _keys2.default)(_this4.stepList)[_this4.mdGotoStep];
         }
@@ -1693,7 +1694,7 @@ if (false) {
 /***/ 375:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime (67)\nFor more information on which environments are supported please see:\nhttps://github.com/sass/node-sass/releases/tag/v4.9.3\n    at module.exports (/Users/perry/devel/vue-material/node_modules/node-sass/lib/binding.js:13:13)\n    at Object.<anonymous> (/Users/perry/devel/vue-material/node_modules/node-sass/lib/index.js:14:35)\n    at Module._compile (internal/modules/cjs/loader.js:707:30)\n    at Module._extensions..js (internal/modules/cjs/loader.js:718:10)\n    at Object.require.extensions.(anonymous function) [as .js] (/Users/perry/devel/vue-material/node_modules/babel-register/lib/node.js:152:7)\n    at Module.load (internal/modules/cjs/loader.js:605:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:544:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:536:3)\n    at Module.require (internal/modules/cjs/loader.js:643:17)\n    at require (internal/modules/cjs/helpers.js:22:18)");
+module.exports = ".THEME_NAME.md-stepper .md-step-header .md-step-icon,\n.THEME_NAME.md-stepper .md-step-header .md-step-number {\n  color: BACKGROUND-CONTRAST;\n  background-color: #bdbdbd; }\n\n.THEME_NAME.md-stepper .md-step-header.md-primary .md-step-icon,\n.THEME_NAME.md-stepper .md-step-header.md-primary .md-step-number, .THEME_NAME.md-stepper .md-step-header.md-active .md-step-icon,\n.THEME_NAME.md-stepper .md-step-header.md-active .md-step-number {\n  color: PRIMARY-CONTRAST;\n  background-color: PRIMARY-COLOR; }\n\n.THEME_NAME.md-stepper .md-step-header.md-accent .md-step-icon,\n.THEME_NAME.md-stepper .md-step-header.md-accent .md-step-number {\n  color: ACCENT-CONTRAST;\n  background-color: ACCENT-COLOR; }\n\n.THEME_NAME.md-stepper .md-step-header.md-warn .md-step-icon,\n.THEME_NAME.md-stepper .md-step-header.md-warn .md-step-number {\n  color: WARN-CONTRAST;\n  background-color: WARN-COLOR; }\n\n.THEME_NAME.md-stepper .md-step-header.md-warn .md-step-error,\n.THEME_NAME.md-stepper .md-step-header.md-warn .md-step-titles {\n  color: WARN-COLOR; }\n\n.THEME_NAME.md-stepper .md-step-header.md-disabled {\n  color: #bdbdbd; }\n  .THEME_NAME.md-stepper .md-step-header.md-disabled .md-step-icon,\n  .THEME_NAME.md-stepper .md-step-header.md-disabled .md-step-number {\n    color: white;\n    background-color: #bdbdbd; }\n"
 
 /***/ }),
 
