@@ -230,6 +230,7 @@
 
         if (Object.keys(this.stepList).length && !this.activeStep) {
           let firstStep = Object.keys(this.stepList)[0];
+  
           if (this.mdGotoStep != null) {
             firstStep = Object.keys(this.stepList)[this.mdGotoStep];
           }
