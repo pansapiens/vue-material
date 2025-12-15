@@ -57,15 +57,15 @@
     background-color: #{'BACKGROUND-COLOR'};
 
     &.md-primary {
-      @include card-spec(#{'PRIMARY-COLOR'}, #{'PRIMARY-CONTRAST'}, #{'PRIMARY-CONTRAST-0.87'}, #{'PRIMARY-CONTRAST-0.54'})
+      @include card-spec(#{'PRIMARY-COLOR'}, #{'PRIMARY-CONTRAST'}, #{'PRIMARY-CONTRAST-0.87'}, #{'PRIMARY-CONTRAST-0.54'});
     }
 
     &.md-accent {
-      @include card-spec(#{'ACCENT-COLOR'}, #{'ACCENT-CONTRAST'}, #{'ACCENT-CONTRAST-0.87'}, #{'ACCENT-CONTRAST-0.54'})
+      @include card-spec(#{'ACCENT-COLOR'}, #{'ACCENT-CONTRAST'}, #{'ACCENT-CONTRAST-0.87'}, #{'ACCENT-CONTRAST-0.54'});
     }
 
     &.md-warn {
-      @include card-spec(#{'WARN-COLOR'}, #{'WARN-CONTRAST'}, #{'WARN-CONTRAST-0.87'}, #{'WARN-CONTRAST-0.54'})
+      @include card-spec(#{'WARN-COLOR'}, #{'WARN-CONTRAST'}, #{'WARN-CONTRAST-0.87'}, #{'WARN-CONTRAST-0.54'});
     }
 
     .md-card-header,

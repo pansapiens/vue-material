@@ -97,7 +97,7 @@ The repository contains a subrepo for `vue-material` (1.x, custom fork).
 If you make changes to `vue-material`, rebuild it like:
 
 ```bash
-# For node 24.x
+# For node 24.x, npm 11.x
 npm install --legacy-peer-deps
 npm run build:lib
 ```

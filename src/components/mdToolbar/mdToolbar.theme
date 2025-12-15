@@ -39,18 +39,18 @@
   }
 
   &.md-toolbar {
-    @include toolbar-spec(#{'PRIMARY-COLOR'}, #{'PRIMARY-CONTRAST'}, #{'PRIMARY-CONTRAST-0.54'})
+    @include toolbar-spec(#{'PRIMARY-COLOR'}, #{'PRIMARY-CONTRAST'}, #{'PRIMARY-CONTRAST-0.54'});
 
     &.md-accent {
-      @include toolbar-spec(#{'ACCENT-COLOR'}, #{'ACCENT-CONTRAST'}, #{'ACCENT-CONTRAST-0.54'})
+      @include toolbar-spec(#{'ACCENT-COLOR'}, #{'ACCENT-CONTRAST'}, #{'ACCENT-CONTRAST-0.54'});
     }
 
     &.md-warn {
-      @include toolbar-spec(#{'WARN-COLOR'}, #{'WARN-CONTRAST'}, #{'WARN-CONTRAST-0.54'})
+      @include toolbar-spec(#{'WARN-COLOR'}, #{'WARN-CONTRAST'}, #{'WARN-CONTRAST-0.54'});
     }
 
     &.md-transparent {
-      @include toolbar-spec(transparent, #{'BACKGROUND-CONTRAST'}, #{'BACKGROUND-CONTRAST-0.54'})
+      @include toolbar-spec(transparent, #{'BACKGROUND-CONTRAST'}, #{'BACKGROUND-CONTRAST-0.54'});
     }
   }
 }
